@@ -8,28 +8,28 @@
     <form class="form-content-holder">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="">
+            <input type="text" class="form-control" id="name" placeholder="" required>
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="">
+            <input type="email" class="form-control" id="email" placeholder="" required>
         </div>
         <div class="mb-3">
             <label for="address" class="form-label">Address</label>
-            <input type="text" class="form-control" id="address" placeholder="">
+            <input type="text" class="form-control" id="address" placeholder="" required>
         </div>
         <div class="mb-3" style="display:flex; gap: 5px;">
             <div style="display: flex; flex-direction: column;">
                 <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control" id="city" placeholder="">
+                <input type="text" class="form-control" id="city" placeholder="" required>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <label for="state" class="form-label">State</label>
-                <input type="text" class="form-control" id="state" placeholder="">
+                <input type="text" class="form-control" id="state" placeholder="" required>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <label for="zip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="zip" placeholder="">
+                <input type="text" class="form-control" id="zip" placeholder=""required>
             </div>
         </div>
         <div class="mb-3">

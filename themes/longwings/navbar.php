@@ -5,7 +5,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: space-between;" style="width:100%;">
-      <ul class="navbar-nav" style="width:100%; justify-content: center; font-family: Alike; font-size: 1.15rem;">
+      <ul class="navbar-nav" style="width:100%; justify-content: center; font-family: Alike;">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Our Mission</a>
         </li>
@@ -17,6 +17,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Curriculum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tuition</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
