@@ -21,9 +21,9 @@ function show_main_cards() {
       $output .= '<div class="card" style="width: 18rem;">
                  <img src="'.esc_url(get_field('card_image')).'" class="card-img-top" alt="..." style="max-height:180px;">
                     <div class="card-body">
-                        <h5 class="card-title">'. get_the_title().'</h5>
-                        <p class="card-text">'.get_the_content().'</p>
-                        <a href="#" class="btn btn-primary" style="background:#fafd65; color:#333; border: 1px solid #333;">Read More</a>
+                        <h5 class="card-title frontpage-card-title">'. get_the_title().'</h5>
+                        <p class="card-text frontpage-card-content">'.get_the_content().'</p>
+                        <a href="#" class="btn btn-primary frontpage-card-button">Read More</a>
                     </div>
                 </div>';
     }

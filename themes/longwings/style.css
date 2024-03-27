@@ -13,15 +13,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url('https://fonts.googleapis.com/css2?family=Alike&family=BioRhyme:wght@200..800&display=swap');
 
-body {
-    font-family: Alike!important;
-}
+
 .main-enroll-button {
     background-color: #333;
     color: #FAFD65;
     padding: 10px;
     border-radius: 10px;
     min-width: 150px;
+    font-family: Alike;
 
 }
 
@@ -30,6 +29,8 @@ body {
     background: #333;
     color: #FAFD65;
     border: transparent;
+    font-family: Alike;
+
 
 }
 
@@ -37,14 +38,14 @@ body {
     background: #fafd65;
     color: #333;
     border: transparent;
+    font-family: Alike;
+
 }
 
 
 .cardholders-main {
     position: relative;
     height: 100vh;
-
-    /* Other styling for the section */
 }
 
 .background-image {
@@ -76,17 +77,22 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 .section-header {
     font-family: BioRhyme;
     font-size: 2.5rem;
     padding-top: 40px;
+    text-align: center;
 }
 
 .section-tagline {
     font-family: Alike;
     font-size: 1.5rem;
+    text-align: center;
+
 }
 
 #main-hero-header {
@@ -95,4 +101,25 @@ body {
 
 #main-hero-tagline {
     font-family: Alike;
+}
+
+.frontpage-card-title {
+    font-family: BioRhyme;
+
+}
+
+.frontpage-card-content{
+    font-family: Alike;
+}
+
+.frontpage-card-button {
+    background:#fafd65; 
+    color:#333; 
+    border: 1px solid #333;
+    font-family: Alike;
+}
+@media screen and (max-width: 1000px) {
+    .background-image {
+        display:none;
+    }
 }
