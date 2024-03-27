@@ -18,8 +18,8 @@ function show_main_cards() {
   
     while ($main_cards->have_posts()) {
       $main_cards->the_post();
-      $output .= '<div class="card" style="width: 18rem;">
-                 <img src="'.esc_url(get_field('card_image')).'" class="card-img-top" alt="..." style="max-height:180px;">
+      $output .= '<div class="card frontpage-card">
+                 <img src="'.esc_url(get_field('card_image')).'" class="card-img-top card-image-holder" alt="...">
                     <div class="card-body">
                         <h5 class="card-title frontpage-card-title">'. get_the_title().'</h5>
                         <p class="card-text frontpage-card-content">'.get_the_content().'</p>

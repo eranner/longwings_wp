@@ -81,6 +81,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     padding-top: 30px;
 }
 
+
 .section-header {
     font-family: BioRhyme;
     font-size: 2.5rem;
@@ -112,6 +113,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     font-family: Alike;
 }
 
+.frontpage-card {
+    width: 22rem;
+}
+
 .frontpage-card-button {
     background:#fafd65!important; 
     color:#333!important; 
@@ -121,6 +126,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     margin:auto;
     margin-bottom: 20px;
 }
+
+.card-image-holder {
+    max-height:220px;
+}
+
 @media screen and (max-width: 1000px) {
     .background-image {
         display:none;
