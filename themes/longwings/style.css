@@ -57,7 +57,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     display: flex;
     justify-content: flex-end; /* Aligns the image to the right within the container */
     z-index: -1; /* Ensures the image is behind other content */
-    filter: grayscale(90%);
+    filter: grayscale(100%);
 }
 
 .background-image img {
@@ -154,6 +154,52 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     z-index: 3;
 
 }
+
+.cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 50px;
+    
+
+}
+
+.cta-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-butterflies {
+    max-height: 300px;
+    overflow: hidden;
+}
+.cta-info>h3 {
+    font-family: BioRhyme;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.cta-info>p {
+    font-family: Alike;
+}
+
+.cta-button {
+    background: #333!important;
+    color:#FAFD65!important;
+    font-size: 1.5rem!important;
+    font-family: Alike!important;
+    width: 325px;
+    margin-bottom: 15px;
+}
+
+.footer-background {
+    background-color: #333;
+
+}
 @media screen and (max-width: 1000px) {
     .background-image {
         display:none;
@@ -170,5 +216,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
     .form-content-holder {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mobile-butterflies {
+        display:none;
     }
 }
