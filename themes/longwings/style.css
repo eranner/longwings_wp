@@ -1,0 +1,85 @@
+/*
+Theme Name: Longwings Custom
+Theme URI: https://eranner.site
+Author: Eric Ranner
+Author URI: https://eranner.site
+Description: Longwings Academy custom theme
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 8.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=BioRhyme:wght@200..800&display=swap');
+
+.main-enroll-button {
+    background-color: #333;
+    color: #FAFD65;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#mission-button {
+    background: #333;
+    color: #FAFD65;
+    border: transparent;
+
+}
+
+#donate-button {
+    background: #fafd65;
+    color: #333;
+    border: transparent;
+}
+
+
+.cardholders-main {
+    position: relative;
+    height: 100vh;
+
+    /* Other styling for the section */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    right: 0; /* Aligns the image to the right */
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns the image to the right within the container */
+    z-index: -1; /* Ensures the image is behind other content */
+    filter: grayscale(90%);
+}
+
+.background-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+#container-special-one {
+    position: relative; /* Ensure positioning within the section */
+    z-index: 1; /* Ensure content is above the image */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.section-header {
+    font-family: BioRhyme;
+    font-size: 2.5rem;
+    padding-top: 40px;
+}
+
+.section-tagline {
+    font-family: Alike;
+    font-size: 1.5rem;
+}
