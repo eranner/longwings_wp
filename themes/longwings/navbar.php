@@ -4,8 +4,8 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;" style="width:100%;">
-      <ul class="navbar-nav" style="margin-right: 22%;">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: space-between;" style="width:100%;">
+      <ul class="navbar-nav" style="width:100%; justify-content: center;">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Our Mission</a>
         </li>
@@ -31,7 +31,7 @@
           </ul>
         </li>
       </ul>
-    <a href="#" style=""><button class="main-enroll-button">Enroll Today!</button></a>
+    <a href="#"><button class="main-enroll-button">Enroll Today!</button></a>
 
     </div>
 

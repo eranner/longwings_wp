@@ -13,11 +13,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url('https://fonts.googleapis.com/css2?family=Alike&family=BioRhyme:wght@200..800&display=swap');
 
+body {
+    font-family: Alike!important;
+}
 .main-enroll-button {
     background-color: #333;
     color: #FAFD65;
     padding: 10px;
     border-radius: 10px;
+    min-width: 150px;
+
 }
 
 
