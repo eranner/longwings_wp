@@ -45,7 +45,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .cardholders-main {
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 
 .background-image {
@@ -125,14 +125,50 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     width: 250px;
     margin:auto;
     margin-bottom: 20px;
+    font-size: 1.2rem!important;
 }
 
 .card-image-holder {
     max-height:220px;
 }
 
+.form-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-form-section {
+    height: 100%;
+    background-image: linear-gradient(#C8C4C4, white);
+    
+
+}
+
+.form-content-holder {
+    background: rgba(255, 255, 255, 0.455);
+    border-radius: 5px;
+    width: 30rem;
+    padding: 2rem;
+    font-family: Alike;
+    z-index: 3;
+
+}
 @media screen and (max-width: 1000px) {
     .background-image {
         display:none;
+    }
+}
+@media screen and (max-width: 775px) {
+    .form-image-container {
+        position: absolute;
+        z-index: 2;
+        margin: auto;
+        opacity: .6;
+
+    }
+
+    .form-content-holder {
+        width: 100%;
     }
 }
