@@ -113,10 +113,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 .frontpage-card-button {
-    background:#fafd65; 
-    color:#333; 
-    border: 1px solid #333;
-    font-family: Alike;
+    background:#fafd65!important; 
+    color:#333!important; 
+    border: 1px solid #333!important;
+    font-family: Alike!important;
+    width: 250px;
+    margin:auto;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 1000px) {
     .background-image {

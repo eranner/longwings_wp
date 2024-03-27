@@ -23,8 +23,9 @@ function show_main_cards() {
                     <div class="card-body">
                         <h5 class="card-title frontpage-card-title">'. get_the_title().'</h5>
                         <p class="card-text frontpage-card-content">'.get_the_content().'</p>
-                        <a href="#" class="btn btn-primary frontpage-card-button">Read More</a>
+                        
                     </div>
+                    <a href="#" class="btn frontpage-card-button">Read More</a>
                 </div>';
     }
   
