@@ -199,6 +199,40 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     background-color: #333;
 
 }
+
+.faculty-card {
+    display:flex;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.faculty-image-holder {
+    overflow:hidden;
+}
+.faculty-image {
+    height: 300px;
+}
+
+.faculty-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-family: Alike;
+}
+
+.faculty-bio>h3 {
+    font-family: BioRhyme;
+}
+
+.faculty-bio>h5 {
+    font-family: BioRhyme;
+}
+
 @media screen and (max-width: 1000px) {
     .background-image {
         display:none;
@@ -216,10 +250,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     .form-content-holder {
         width: 100%;
     }
+
+    .faculty-card {
+        flex-direction:column;
+        max-width: 400px;
+        
+    }
 }
 
 @media screen and (max-width: 650px) {
     .mobile-butterflies {
         display:none;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .faculty-card {
+        max-width: 300px;
     }
 }
