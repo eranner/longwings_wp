@@ -9,12 +9,12 @@
    while(have_posts()){
     the_post();
     the_title();
-   }
+   };
    ?>
     </h1>
-    <div class="col-lg-6 mx-auto">
+    <!-- <div class="col-lg-6 mx-auto">
       <p class="lead mb-4" id="colonyDesc">Brush up on the most recent news from BeesNest and the hospitality industry</p>
-    </div>
+    </div> -->
   </div>
   </div>
   </div>

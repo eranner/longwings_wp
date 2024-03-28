@@ -18,14 +18,16 @@ function show_main_cards() {
   
     while ($main_cards->have_posts()) {
       $main_cards->the_post();
+      $content = get_the_content();
+      $trimmed = wp_trim_words($content, 20);
       $output .= '<div class="card frontpage-card">
                  <img src="'.esc_url(get_field('card_image')).'" class="card-img-top card-image-holder" alt="...">
                     <div class="card-body">
                         <h5 class="card-title frontpage-card-title">'. get_the_title().'</h5>
-                        <p class="card-text frontpage-card-content">'.get_the_content().'</p>
+                        <p class="card-text frontpage-card-content">'.$trimmed.'</p>
                         
                     </div>
-                    <a href="#" class="btn frontpage-card-button">Read More</a>
+                    <a href="'.get_the_permalink().'" class="btn frontpage-card-button">Read More</a>
                 </div>';
     }
   
