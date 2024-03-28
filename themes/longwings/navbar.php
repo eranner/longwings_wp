@@ -14,7 +14,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/faculty');?>" <?php 
-          if($_SERVER['REQUEST_URI'] == '/faculty'){
+          if($_SERVER['REQUEST_URI'] == '/faculty/'){
             echo 'style="font-weight: bold;"';
           };?>>Faculty</a>
         </li>

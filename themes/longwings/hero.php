@@ -10,8 +10,8 @@
       <p class="lead mb-4" id="main-hero-tagline">A new way to educate and inspire young minds</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
-        <a href="https://demo.beesnestdesign.com/"><button type="button" class="btn btn-warning btn-lg px-4" id='mission-button'>Our Mission</button></a>
-        <a href="https://demo.beesnestdesign.com/"><button type="button" class="btn btn-warning btn-lg px-4" id='donate-button'>Donate</button></a>
+        <a href="<?php echo site_url('/our-mission');?>"><button type="button" class="btn btn-warning btn-lg px-4" id='mission-button'>Our Mission</button></a>
+        <a href="#"><button type="button" class="btn btn-warning btn-lg px-4" id='donate-button'>Donate</button></a>
       </div>
     </div>
   </div>
