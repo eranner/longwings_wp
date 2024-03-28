@@ -58,7 +58,7 @@ function show_main_cards() {
         $output .= '
 <div class="faculty-card">
     <div class="faculty-image-holder">
-        <img src="'.$picture.'" alt="" class="img-fluid faculty-image">
+        <img src="'.$picture.'" alt="" class=" faculty-image">
     </div>
     <div class="faculty-bio">
         <h3 class="facultyname">'.$name.'</h3>
