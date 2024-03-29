@@ -25,7 +25,7 @@
           <a class="nav-link" href="<?php echo site_url('/tuition');?>" style="<?php if($_SERVER['REQUEST_URI'] == '/tuition/'){echo 'text-decoration: underline;';} ?>">Tuition</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url('/contact');?> " style="<?php if($_SERVER['REQUEST_URI'] == '/contact/'){echo 'text-decoration: underline;';} ?>">Contact Us</a>
+          <a class="nav-link" href="<?php echo site_url('/#contact-us');?> " style="<?php if($_SERVER['REQUEST_URI'] == '/contact/'){echo 'text-decoration: underline;';} ?>">Contact Us</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="<?php if($_SERVER['REQUEST_URI'] == '/calendar/' || $_SERVER['REQUEST_URI'] == '/announcements/'){echo 'text-decoration: underline;';} ?>">
