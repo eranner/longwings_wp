@@ -13,7 +13,7 @@
       <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary" style="color:white!important;">Donate</a></li>
       <li class="nav-item"><a href="<?php echo site_url('/faculty');?>" class="nav-link px-2 text-body-secondary" style="color:white!important;">Faculty</a></li>
       <li class="nav-item"><a href="<?php echo site_url('/curriculum');?>" class="nav-link px-2 text-body-secondary" style="color:white!important;">Curriculum</a></li>
-      <li class="nav-item"><a href="<?php echo site_url('/#contact-us');?>" class="nav-link px-2 text-body-secondary" style="color:white!important;">Contact Us</a></li>
+      <li class="nav-item"><a href="<?php echo site_url('/contact');?>" class="nav-link px-2 text-body-secondary" style="color:white!important;">Contact Us</a></li>
       <li class="nav-item"><a href="<?php echo site_url('/calendar');?>" class="nav-link px-2 text-body-secondary" style="color:white!important;">Calendar</a></li>
       <li class="nav-item"><a href="<?php echo site_url('/announcements');?>" class="nav-link px-2 text-body-secondary" style="color:white!important;">Announcements</a></li>
     </ul>

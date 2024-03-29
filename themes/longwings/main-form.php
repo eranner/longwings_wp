@@ -1,9 +1,14 @@
 <section class="main-form-section">
-    <h3 class="section-header" style="margin-top: 40px;">Still not sure?</h3>
-    <p class="section-tagline" style="margin-bottom: 40px;">Fill out our contact form to request more information</p>
-<div class="container form-main">
+<div style="display: flex; flex-direction: column; align-items:center; padding-bottom: 40px;">
+<div class="header-holder" >
+    <h3 class="section-header" >Still not sure?</h3>
+    <p class="section-tagline" >Fill out our contact form to request more information</p>
+</div>
+</div>
+
+    <div class="container form-main">
     <div class="form-image-container">
-        <img src="<?php echo get_theme_file_uri().'/photos/yellow_butterfly_1.png';?>" alt="" class="img-fluid form-image">
+        <img src="<?php echo get_theme_file_uri().'/photos/Zebra_longwing.svg';?>" alt="" class="img-fluid form-image">
     </div>
     <form class="form-content-holder">
         <div class="mb-3">
