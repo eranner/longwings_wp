@@ -52,6 +52,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     height: 100%;
     background-image: url('./photos/zebra-tile-clear.png');
     background-repeat:round;
+    
 }
 
 /* .background-image {
@@ -86,6 +87,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     gap: 40px;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 3rem;
 }
 
 
@@ -287,6 +289,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     gap: 30px;
     justify-content: center;
 }
+
+.single-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    font-family: Alike;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin:auto;
+    padding-top: 40px;
+    
+}
 /* @media screen and (min-width:1001px) {
     #small-hero{
         background-size:
@@ -348,3 +363,4 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     }
     
 }
+ 
