@@ -280,6 +280,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 #gutenberg-delivery-container > h2 {
     font-family: BioRhyme;
 }
+
+#calendar-pdf-holder {
+    display:flex; 
+    flex-direction: row; 
+    gap: 30px;
+    justify-content: center;
+}
 /* @media screen and (min-width:1001px) {
     #small-hero{
         background-size:
@@ -289,6 +296,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @media screen and (max-width: 1000px) {
     .background-image {
         display:none;
+    }
+
+    #calendar-pdf-holder {
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media screen and (max-width: 775px) {

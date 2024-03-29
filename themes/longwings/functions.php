@@ -82,3 +82,44 @@ function show_main_cards() {
       return $output;
   }
   add_shortcode('teacher_cards', 'show_teachers');
+
+  function show_calendars() {
+    $calendars = new WP_Query([
+        'posts_per_page' => -1,
+        'post_type' => 'calendars',
+    ]);
+
+    $output = '
+    <h3 class="section-header">Longwings Calendar of Events​</h3>
+    <p class="section-tagline" style="margin-bottom: 50px;">**All scheduled events are subject to change. Be sure to check our <a style="color:gold; text-shadow: 1px 1px 3px #333;" href="'. site_url().'/announcements">announcements</a> page for updates**</p>
+    <div id="calendar-pdf-holder">
+    ';
+
+    while($calendars->have_posts()){
+        $calendars->the_post();
+        $current_month = date('F, Y');
+        $current_year = date('Y');
+        $pdf_month = get_field('pdf_monthly_calendar');
+        $pdf_year = get_field('pdf_yearly_calendar');
+
+        $output .= '
+        <div style="display:flex; flex-direction:column;">
+            <p class="section-tagline" style="font-family:BioRhyme;">'.$current_month.' Calendar</p>
+            <iframe src="'.$pdf_month.'" width="400" height="600"></iframe>
+        </div>
+        <div style="display:flex; flex-direction:column;">
+            <p class="section-tagline" style="font-family:BioRhyme;">'.$current_year.' Academic Calendar</p>
+            <embed src="'.$pdf_year.'" width="400" height="600"></embed>
+        </div>
+        ';
+    }
+    
+    wp_reset_postdata();
+    $output .= '</div>';
+    return $output;
+}
+
+add_shortcode('pdf_calendars', 'show_calendars');
+
+
+
