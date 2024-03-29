@@ -250,6 +250,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     align-items: center;
     padding: 10px;
     font-family: Alike;
+    background-color: white;
 }
 
 .faculty-bio>h3 {
