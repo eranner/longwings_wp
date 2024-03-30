@@ -10,7 +10,7 @@
     <div class="form-image-container">
         <img src="<?php echo get_theme_file_uri().'/photos/Zebra_longwing.svg';?>" alt="" class="img-fluid form-image">
     </div>
-    <form class="form-content-holder">
+    <form class="form-content-holder" id="main-page-form">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" placeholder="" required>

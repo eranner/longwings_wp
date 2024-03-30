@@ -303,6 +303,40 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     padding-top: 40px;
     
 }
+
+.grid-contact-card-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+
+}
+
+.grid-contact-card {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+
+.contact-grid-image {
+    height: 250px;
+}
+
+.grid-contact-header {
+    font-famiLy: BioRhyme;
+    padding-top: 10px;
+}
+
+.grid-contact-tagline {
+    font-family: Alike;
+    text-align: center;
+}
 /* @media screen and (min-width:1001px) {
     #small-hero{
         background-size:
@@ -315,6 +349,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     }
 
     #calendar-pdf-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-contact-card-container {
         flex-direction: column;
         align-items: center;
     }
