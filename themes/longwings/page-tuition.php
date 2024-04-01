@@ -8,7 +8,7 @@ require('navbar.php');
 require('small-hero.php');
 ?>
     <h3 class="section-header">Longwings <?php echo date('Y');?> Tuition</h3>
-    <p class="section-tagline" style="margin-bottom: 50px;">**All tuition is subject to change. Be sure to check our <a style="color:gold; text-shadow: 1px 1px 3px #333;" href="<?php site_url().'/announcements';?>">announcements</a> page for updates**</p>
+    <p class="section-tagline" style="margin-bottom: 50px;">**All tuition is subject to change. Be sure to check our <a style="color:gold; text-shadow: 1px 1px 3px #333;" href="<?php echo site_url().'/announcements';?>">announcements</a> page for updates**</p>
     <div class="table-responsive">
     <table class="table table-striped table-hover" style="margin:auto; max-width: 1000px; font-family:Alike;">
   <thead>
