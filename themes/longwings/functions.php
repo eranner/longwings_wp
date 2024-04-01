@@ -123,3 +123,49 @@ add_shortcode('pdf_calendars', 'show_calendars');
 
 
 
+function show_mission_cards() {
+    $missions = new WP_Query([
+        'posts_per_page' => -1,
+        'post_type' => 'mission_cards',
+        'order' => 'ASC'
+    ]);
+    $counter = 0;
+    $output = '<div class="mission-card-container">';
+    while($missions->have_posts()){
+
+        
+
+        if($counter % 2 == 0){
+            $class = "mission-left";
+            $h2 = "left-mission-header";
+            $p = "left-mission-paragraph";
+            $img = "mission-image-left";
+            $mission_flex = 'mission-flex-left';
+        } else {
+            $class = "mission-right";
+            $h2 = "right-mission-header";
+            $p = "right-mission-paragraph";
+            $img = "mission-image-right";
+            $mission_flex = 'mission-flex-right';
+        }
+
+        $missions->the_post();
+        $output .= '<div class="'.$mission_flex.'"><div class=" '.$class.'">
+            <h2 class="'.$h2.'">'.get_the_title().'</h2>
+            <img src="'.get_field('mission_card_image').'" class="img-fluid '.$img.'">
+            <div class="'.$p.'">'.get_the_content().'</div>
+            </div></div>
+        ';
+
+        $counter ++;
+
+    }
+    wp_reset_postdata();
+
+    $output .= '</div>';
+
+
+    return $output;
+}
+
+add_shortcode('our_mission', 'show_mission_cards');
