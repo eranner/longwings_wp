@@ -263,9 +263,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 #small-hero {
-    background-image: url('photos/ZebraSP.svg'); 
+    background-image: url('photos/003.jpg'); 
     background-size:cover; 
-    background-color: gold;
     color: white; 
     text-shadow: 1px 1px black; 
     height: 30vh;display:flex; 

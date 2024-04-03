@@ -2,7 +2,7 @@
 
 
 
-<div class="px-4 py-5 my-5 text-center" id='mainHero' style="background-image: url(<?php echo get_theme_file_uri('/photos/ZebraSP.svg'); ?>); background-size:cover; color: white; text-shadow: 1px 1px black; height: 90vh;display:flex; flex-direction:column; align-items: center; justify-content: center; padding: 0 0 0 0!important; margin-top:0!important; margin-bottom:0!important; background-color: gold;">
+<div class="px-4 py-5 my-5 text-center" id='mainHero' style="background-image: url(<?php echo get_theme_file_uri('/photos/003.jpg'); ?>); background-size:cover; color: white; text-shadow: 1px 1px black; height: 90vh;display:flex; flex-direction:column; align-items: center; justify-content: center; padding: 0 0 0 0!important; margin-top:0!important; margin-bottom:0!important;">
 <div style="width: 100%; height: 100%; background-color: #3333336a; padding-top: 30px; display: flex; flex-direction: column; align-items:center; justify-content: center;" >
     
     <h1 class="display-5 fw-bold" id="main-hero-header">Longwings Academy</h1>
