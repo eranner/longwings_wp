@@ -169,3 +169,54 @@ function show_mission_cards() {
 }
 
 add_shortcode('our_mission', 'show_mission_cards');
+
+function show_tuition_table() {
+    $records = new WP_Query([
+        'posts_per_page' => -1,
+        'post_type' => 'tuition_records',
+        'order' => 'ASC'
+    ]);
+
+
+    $output = '
+    <h3 class="section-header">Longwings '. date('Y').'Tuition</h3>
+    <p class="section-tagline" style="margin-bottom: 50px;">**All tuition is subject to change. Be sure to check our <a style="color:gold; text-shadow: 1px 1px 3px #333;" href="'.site_url()."/announcements".'">announcements</a> page for updates**</p>
+    <div class="table-responsive">
+    <table class="table table-striped table-hover" style="margin:auto; max-width: 1000px; font-family:Alike;">
+    <thead>
+    <tr >
+    <th scope="col" >Program</th>
+    <th scope="col">Schedule</th>
+    <th scope="col">Times</th>
+    <th scope="col">Cost</th>
+    </tr>
+    </thead>
+    <tbody>
+    ';
+
+    while($records->have_posts()){
+    $records->the_post();
+
+        $output .= '
+        <tr>
+            <th scope="row">'.get_the_title().'</th>
+            <td>'. get_field('schedule').'</td>
+            <td>'.get_field('times').'</td>
+            <td>'.get_field('cost').'</td>
+        </tr>
+        ';
+    }
+
+    // wp_reset_post_data();
+
+    $output .= '
+        </tbody>
+        </table>
+        </div>
+    ';
+
+    return $output;
+}
+
+add_shortcode('tuition_table', 'show_tuition_table');
+
