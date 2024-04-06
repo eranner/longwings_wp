@@ -179,8 +179,16 @@ function show_tuition_table() {
 
 
     $output = '
-    <h3 class="section-header">Longwings '. date('Y').'Tuition</h3>
+    <h3 class="section-header">Longwings '. date('Y').' Tuition</h3>
     <p class="section-tagline" style="margin-bottom: 50px;">**All tuition is subject to change. Be sure to check our <a style="color:gold; text-shadow: 1px 1px 3px #333;" href="'.site_url()."/announcements".'">announcements</a> page for updates**</p>
+    <div class="container">
+            <div>
+            <h2 style="text-align: center; font-family:Alike; margin-left: -11px; margin-right: -11px;margin-bottom: 0px; padding-bottom: 20px; text-decoration: underline; cursor: pointer;"><a href="https://longwingsacademy.org/wp-content/uploads/2024/04/reg-form.pdf" style="color:black;">click here to download the registration form for '.get_field("current_school_year").'</a></h2>
+            <h3 style="text-align: center; margin-left: -11px; margin-right: -11px; font-weight: bold; margin-bottom: 0px; font-family:BioRhyme;">'.get_field('special_message').'</h3>
+            <h5 style="text-align: center; margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;margin-top: 20px;"> If you would like to be put on the wait list, please fill out the registration form above and mail with payment to:</h5>
+        <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; margin-top: 20px;font-family:Alike;">Longwings Academy</h5>
+           <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;">Address Line 1</h5>
+           <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;">McAlpin, FL 32062</h5></div></div>
     <div class="table-responsive">
     <table class="table table-striped table-hover" style="margin:auto; max-width: 1000px; font-family:Alike;">
     <thead>
