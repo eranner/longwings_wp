@@ -417,6 +417,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 }
 
+#social-media-holder {
+    width: 100%;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    padding-top: 5px;
+}
 .entry-content-mission {
     background-image: url('./photos/zebra-tile-clear.png');
 }
@@ -469,7 +479,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     .faculty-image-holder {
         max-width: 100%;
     }
-    
+
+    #longwings-footer {
+        flex-wrap: wrap;
+    }
+
+    #social-media-holder {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 650px) {
