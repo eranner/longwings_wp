@@ -222,6 +222,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .faculty-card {
     display:flex;
+    flex-direction: column;
     max-width: 800px;
     margin: auto;
     border: 2px solid #333;
@@ -236,12 +237,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     align-items: center;
     /* background-color: #333; */
     background-image: linear-gradient(#333, white, #333);
-    max-width: 50%;
 }
 .faculty-image {
     /* height: 300px;
     width: 300px; */
     overflow:hidden;
+    max-height: 600px;
+    margin: auto;
     
 }
 
