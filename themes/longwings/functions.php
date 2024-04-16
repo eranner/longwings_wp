@@ -50,7 +50,7 @@ function show_main_cards() {
       while ($teacher_cards->have_posts()) {
         $teacher_cards->the_post();
         $name = get_the_title();
-        $bio = get_field('bio');
+        $bio = get_the_content();
         $fact1 = get_field('first_fact');
         $fact2 = get_field('second_fact');
         $fact3 = get_field('third_fact');
