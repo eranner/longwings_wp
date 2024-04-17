@@ -1,7 +1,7 @@
 <section class="footer-background">
 
 <div class="container" style="padding-top: 10px!important;">
-  <footer id="longwings-footer" class="d-flex  justify-content-between align-items-center py-3 my-4 border-top" >
+  <footer id="longwings-footer" class="d-flex  justify-content-between align-items-center py-3 border-top" >
     <div id="social-media-holder"style="display:flex; flex-direction: column;">
     <div class="col-md-4 mb-0 text-body-secondary" style="color:white!important; width:100%;">&copy; <?php echo Date('Y');?> Longwings Academy</div>
     <div class="social-media-icons">
@@ -38,6 +38,12 @@
   </footer>
 </div>
 </section>
+<div class="disclaimer">
+  <div class="container">
+  The Corporation shall not discriminate on the basis of race, religion, national origin, gender, or age in its hiring or in carrying out its purposes. The Corporation shall conduct all of its activities in accordance with all applicable local, state, and federal anti-discrimination laws.
+
+  </div>
+</div>
 <?php wp_footer(); ?>
 </body>
 </html>
