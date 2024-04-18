@@ -10,7 +10,7 @@
           <a class="nav-link" aria-current="page" href="<?php echo site_url('/our-mission');?>" style="<?php if($_SERVER['REQUEST_URI'] == '/our-mission/'){echo 'text-decoration: underline;';} ?>">Our Mission</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Donate</a>
+          <a class="nav-link custom-dbox-popup" href="https://donorbox.org/longwings-donation">Donate</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/faculty');?>" <?php 
