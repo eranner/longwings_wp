@@ -40,7 +40,7 @@
 </section>
 <div class="disclaimer">
   <div class="container">
-  The Corporation shall not discriminate on the basis of race, religion, national origin, gender, or age in its hiring or in carrying out its purposes. The Corporation shall conduct all of its activities in accordance with all applicable local, state, and federal anti-discrimination laws.
+  Longwings Academy shall not discriminate on the basis of race, religion, national origin, gender, or age in its hiring or in carrying out its purposes. Longwings Academy shall conduct all of its activities in accordance with all applicable local, state, and federal anti-discrimination laws.
 
   </div>
 </div>
