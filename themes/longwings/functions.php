@@ -24,7 +24,7 @@ function show_main_cards() {
                  <img src="'.esc_url(get_field('card_image')).'" class="card-img-top card-image-holder" alt="...">
                     <div class="card-body">
                         <h5 class="card-title frontpage-card-title">'. get_the_title().'</h5>
-                        <p class="card-text frontpage-card-content">'.$trimmed.'</p>
+                        <p class="card-text frontpage-card-content">'.$content.'</p>
                         
                     </div>
                     <a href="'.get_the_permalink().'" class="btn frontpage-card-button">Read More</a>
