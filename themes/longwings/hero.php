@@ -11,7 +11,7 @@
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
         <a href="<?php echo site_url('/our-mission');?>"><button type="button" class="btn btn-warning btn-lg px-4" id='mission-button'>Our Mission</button></a>
-        <a href="#"><button type="button" class="btn btn-warning btn-lg px-4" id='donate-button'>Donate</button></a>
+        <a class="custom-dbox-popup" href="https://donorbox.org/longwings-donation"><button type="button" class="btn btn-warning btn-lg px-4" id='donate-button'>Donate</button></a>
       </div>
     </div>
   </div>
