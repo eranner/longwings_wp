@@ -27,7 +27,7 @@ function show_main_cards() {
                         <p class="card-text frontpage-card-content">'.$content.'</p>
                         
                     </div>
-                    <a href="'.get_the_permalink().'" class="btn frontpage-card-button">Read More</a>
+                    <a href="'. site_url('/curriculum').'" class="btn frontpage-card-button">Learn More</a>
                 </div>';
     }
   
@@ -187,7 +187,8 @@ function show_tuition_table() {
             <h3 style="text-align: center; margin-left: -11px; margin-right: -11px; font-weight: bold; margin-bottom: 0px; font-family:BioRhyme;">'.get_field('special_message').'</h3>
             <h5 style="text-align: center; margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;margin-top: 20px;"> If you would like to be put on the wait list, please fill out the registration form above and mail with payment to:</h5>
         <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; margin-top: 20px;font-family:Alike;">Longwings Academy</h5>
-           <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;">Address Line 1</h5>
+           <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;">
+           8165 168th St</h5>
            <h5 style="text-align: center;  margin-left: -11px; margin-right: -11px;margin-bottom: 0px; font-family:Alike;">McAlpin, FL 32062</h5></div></div>
     <div class="table-responsive">
     <table class="table table-striped table-hover" style="margin:auto; max-width: 1000px; font-family:Alike;">

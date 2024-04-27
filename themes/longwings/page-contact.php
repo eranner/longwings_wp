@@ -23,8 +23,11 @@ require('small-hero.php');
                 <div class="grid-contact-card">
                 <img class="contact-grid-image" src="<?php echo get_theme_file_uri().'/photos/placeholder.svg';?>" alt="" class="img-fluid">
                 <h3 class="grid-contact-header">Visit</h3>
-                    <h4 class="grid-contact-tagline">McAlpin, FL</h4>
-                    <a href="https://maps.app.goo.gl/RXZ7LgAEoZG5GYGV9"><button class="btn btn-warning">Map</button></a>
+                    <h4 class="grid-contact-tagline">Longwings Academy
+</h4>
+                    <h4 class="grid-contact-tagline">8165 168th St</h4>
+                    <h4 class="grid-contact-tagline">McAlpin, FL 32962</h4>
+                    <a href="https://www.google.com/maps/place/8165+168th+St,+McAlpin,+FL+32062/@30.1459717,-82.9183422,17z/data=!3m1!4b1!4m6!3m5!1s0x88eed7373a8a04a3:0xd3e69fdeb5a9dfcb!8m2!3d30.1459717!4d-82.9157673!16s%2Fg%2F11vm13xfd2?entry=ttu"><button class="btn btn-warning">Map</button></a>
                 </div>
             </div>
         </div>
