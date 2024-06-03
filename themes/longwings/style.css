@@ -12,10 +12,17 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url('https://fonts.googleapis.com/css2?family=Alike&family=BioRhyme:wght@200..800&display=swap');
-
+.disclaimer {
+    background-color: #333;
+    color: white;
+    font-size: .8rem;
+    margin: 0;
+    padding-bottom:20px;
+    text-align: center;
+}
 .main-enroll-button {
     background-color: #333;
-    color: #FAFD65;
+    color: gold;
     padding: 10px;
     border-radius: 10px;
     min-width: 150px;
@@ -26,7 +33,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #mission-button {
     background: #333;
-    color: #FAFD65;
+    color: gold;
     border: transparent;
     font-family: Alike;
 
@@ -34,41 +41,50 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 #donate-button {
-    background: #fafd65;
+    background: gold;
     color: #333;
     border: transparent;
     font-family: Alike;
 
 }
-
-
+.header-holder {
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+.main-card-cover {
+    background-color: rgba(255, 217, 0, 0.206);
+}
 .cardholders-main {
-    position: relative;
     height: 100%;
+    background-image: url('./photos/zebra-tile-clear.png');
+    background-repeat:round;
+    
 }
 
-.background-image {
+/* .background-image {
     position: absolute;
     top: 0;
-    right: 0; /* Aligns the image to the right */
+    right: 0; 
     bottom: 0;
     left: 0;
     display: flex;
-    justify-content: flex-end; /* Aligns the image to the right within the container */
-    z-index: -1; /* Ensures the image is behind other content */
+    justify-content: flex-end; 
+    z-index: -1; 
     filter: grayscale(100%);
-}
+} */
 
-.background-image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-}
+/* .background-image img {
+    max-width: 100%; 
+} */
 
 #container-special-one {
-    position: relative; /* Ensure positioning within the section */
-    z-index: 1; /* Ensure content is above the image */
+    /* position: relative; Ensure positioning within the section */
+    /* z-index: 1; Ensure content is above the image */
     display:flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .main-card-container {
@@ -78,6 +94,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     gap: 40px;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 3rem;
 }
 
 
@@ -97,10 +114,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #main-hero-header {
     font-family: BioRhyme;
+    font-size: 5rem;
 }
 
 #main-hero-tagline {
     font-family: Alike;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 10px #333;
 }
 
 .frontpage-card-title {
@@ -117,7 +138,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 .frontpage-card-button {
-    background:#fafd65!important; 
+    background:gold!important; 
     color:#333!important; 
     border: 1px solid #333!important;
     font-family: Alike!important;
@@ -144,6 +165,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 }
 
+.form-image {
+    width: 30rem;
+    padding-bottom: 10rem;
+}
+
 .form-content-holder {
     background: rgba(255, 255, 255, 0.455);
     border-radius: 5px;
@@ -160,6 +186,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     max-width: 1500px;
     margin: auto;
     padding-top: 50px;
+    background-color: white;
     
 
 }
@@ -188,7 +215,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .cta-button {
     background: #333!important;
-    color:#FAFD65!important;
+    color:gold!important;
     font-size: 1.5rem!important;
     font-family: Alike!important;
     width: 325px;
@@ -197,12 +224,248 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .footer-background {
     background-color: #333;
+    margin-bottom:0px;
 
 }
+
+.faculty-card {
+    display:flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.faculty-image-holder {
+    overflow:hidden;
+    display:flex;
+    align-items: center;
+    /* background-color: #333; */
+    background-image: linear-gradient(#333, white, #333);
+}
+.faculty-image {
+    /* height: 300px;
+    width: 300px; */
+    overflow:hidden;
+    max-height: 600px;
+    margin: auto;
+    
+}
+
+.faculty-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-family: Alike;
+    background-color: white;
+}
+
+.faculty-bio>h3 {
+    font-family: BioRhyme;
+}
+
+.faculty-bio>h5 {
+    font-family: BioRhyme;
+}
+
+#small-hero {
+    background-image: url('photos/003.jpg'); 
+    background-size:cover; 
+    color: white; 
+    text-shadow: 1px 1px black; 
+    height: 30vh;display:flex; 
+    flex-direction:column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 0 0 0 0!important; 
+    margin-top:0!important; 
+    margin-bottom:0!important; 
+}
+
+#gutenberg-delivery-container {
+    font-family: Alike;
+}
+
+#gutenberg-delivery-container > h2 {
+    font-family: BioRhyme;
+}
+
+#calendar-pdf-holder {
+    display:flex; 
+    flex-direction: row; 
+    gap: 30px;
+    justify-content: center;
+}
+
+.single-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    font-family: Alike;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin:auto;
+    padding-top: 40px;
+    
+}
+
+.grid-contact-card-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+
+}
+
+.grid-contact-card {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+
+.contact-grid-image {
+    height: 250px;
+}
+
+.grid-contact-header {
+    font-famiLy: BioRhyme;
+    padding-top: 10px;
+}
+
+.grid-contact-tagline {
+    font-family: Alike;
+    text-align: center;
+}
+
+.mission-card-container{
+
+    max-width: 2000px;
+    margin: auto;
+}
+
+.mission-left {
+    background-color: rgb(236, 201, 5);
+    padding: 20px;
+    padding-left: 10rem;
+    width: 85%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.left-mission-header {
+    font-family: BioRhyme;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.left-mission-paragraph {
+    font-family: Alike!important;
+    max-width: 800px;
+    padding-top: 20px;
+
+
+}
+
+.mission-image-left {
+    max-height: 800px;
+
+
+}
+
+.mission-image-right {
+    max-height: 800px;
+
+
+}
+
+.mission-right {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    padding-right: 10rem;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-height: 50vh;
+
+
+
+}
+
+.mission-flex-right {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+.right-mission-paragraph {
+    font-family: Alike!important;
+    max-width: 800px;
+    padding-top: 20px;
+}
+
+.right-mission-header {
+    font-family: BioRhyme;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    text-align: center;
+
+
+}
+
+#social-media-holder {
+    width: 100%;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    padding-top: 5px;
+}
+.entry-content-mission {
+    background-image: url('./photos/zebra-tile-clear.png');
+}
+/* @media screen and (min-width:1001px) {
+    #small-hero{
+        background-size:
+    }
+    
+} */
 @media screen and (max-width: 1000px) {
     .background-image {
         display:none;
     }
+
+    #calendar-pdf-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-contact-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mission-right {
+        padding-right: 20px;
+    }
+    .mission-left {
+        padding-left: 20px;
+    }
+
 }
 @media screen and (max-width: 775px) {
     .form-image-container {
@@ -216,10 +479,56 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     .form-content-holder {
         width: 100%;
     }
+
+    .faculty-card {
+        flex-direction:column;
+        max-width: 400px;
+        
+    }
+
+    .faculty-image-holder {
+        max-width: 100%;
+    }
+
+    #longwings-footer {
+        flex-wrap: wrap;
+    }
+
+    #social-media-holder {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 650px) {
     .mobile-butterflies {
         display:none;
     }
+
+    #main-hero-header {
+        font-size: 3rem;
+    }
+    #main-hero-tagline {
+        font-size: 1.5rem;
+    }
+
+    .mission-left {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .mission-right {
+        width: 100%;
+        align-items: center;
+
+    }
 }
+
+@media screen and (max-width: 400px){
+
+    .faculty-card {
+        max-width: 300px;
+    }
+    
+}
+ 
