@@ -25,7 +25,11 @@ while(have_posts()){
                         <p>All tuition payments are due in full on a monthly basis, on your child’s first scheduled session of each month. Payment is collected by a tuition collection website FACTS. After enrollment, you will be given information on enrolling in that service. (Please remember that your child’s tuition secures your child’s seat in the class for the school year, and all tuition payments must be received even when your child is absent from school).</p>
                         <p>If you need to make special arrangements for your tuition payments, please call Longwings Academy with any questions at <span onclick="window.open('tel:3862435020')" style="font-weight: bold; color: blue; text-decoration: underline; cursor: pointer;">383-246-5020 </span> or email us at <span onclick="window.location.href = 'mailto:info@longwingsacademy.org?subject=Tuition&body=';" style="font-weight: bold; color: blue; text-decoration: underline; cursor: pointer;">info@longwingsacademy.org</span>.</p>
                         <h5 style="font-weight: bold;font-family:BioRhyme;">Tution Assistance</h5>
+                        <h6 style="font-weight: bold;font-family:BioRhyme;">FACTS</h6>
                         <p>Longwings Academy currently offers tuition assistance in the form of scholarships to all enrolled and newly enrolling families. Please follow the prompts on the FACTS website to apply for assistance.</p>
+                        <h6 style="font-weight: bold;font-family:BioRhyme;">Step Up For Students</h6>
+                        <p>Longwings Academy also accepts scholarships from all enrolled and newly enrolling families from Florida's Step Up For Students Program. Visit <a href="https://www.stepupforstudents.org/">https://www.stepupforstudents.org/</a> for more information.</p>
+                        
                         <h5 style="font-weight: bold;font-family:BioRhyme;">Registration Fee</h5>
                         <p>A non-refundable fee of $25.00 is due at the time of enrollment to hold your child’s seat in the classroom for the school year.</p>
 
