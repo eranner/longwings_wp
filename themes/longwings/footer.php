@@ -43,6 +43,14 @@
   Longwings Academy shall not discriminate on the basis of race, religion, national origin, gender, or age in its hiring or in carrying out its purposes. Longwings Academy shall conduct all of its activities in accordance with all applicable local, state, and federal anti-discrimination laws.
 
   </div>
+  <div class="container">
+  Reporting Misconduct by Instructional Personnel and Administrators All instructional personnel, educational support employees, and school administrators have an obligation to report misconduct by instructional personnel, educational support employees, and school administrators which affects the health, safety, or welfare of a student. Examples of misconduct include obscene language, drug and alcohol use, disparaging comments, prejudice or bigotry, sexual innuendo, cheating or testing violations, physical aggression, and accepting or offering favors. Reports of misconduct of employees should be made to 
+Erica Rimbert 386-243-5020.<br>
+Reports of misconduct committed by administrators should be made to:<br>
+Longwings Academy, Inc. Board of Directors – info@longwingsacademy.org
+Legally sufficient allegations of misconduct by Florida certified educators will be reported to the Office of Professional Practices Services. Policies and procedures for reporting misconduct by instructional personnel or school administrators which affects the health, safety, or welfare of a student are posted on a bulletin board in our office and on our Web site at longwingsacademy.org
+
+  </div>
 </div>
 <?php wp_footer(); ?>
 </body>
