@@ -27,6 +27,9 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('/contact');?> " style="<?php if($_SERVER['REQUEST_URI'] == '/contact/'){echo 'text-decoration: underline;';} ?>">Contact Us</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/longwings-blog');?> " style="<?php if($_SERVER['REQUEST_URI'] == '/longwings-blog/'){echo 'text-decoration: underline;';} ?>">Blog</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="<?php if($_SERVER['REQUEST_URI'] == '/calendar/' || $_SERVER['REQUEST_URI'] == '/announcements/'){echo 'text-decoration: underline;';} ?>">
             Notifications

@@ -229,3 +229,7 @@ function show_tuition_table() {
 
 add_shortcode('tuition_table', 'show_tuition_table');
 
+function my_theme_enqueue_styles() {
+    wp_enqueue_style('my-style', get_stylesheet_uri(), [], time());
+}
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
