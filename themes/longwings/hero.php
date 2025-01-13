@@ -1,3 +1,7 @@
+<?php
+$_SESSION['token']=  bin2hex(random_bytes(32));
+?>
+
 <section style="background-color: white; margin-bottom:0; padding-bottom:0!important;">
 
 

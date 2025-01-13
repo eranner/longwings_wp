@@ -6,11 +6,12 @@
 </div>
 </div>
 
+
     <div class="container form-main">
     <div class="form-image-container">
         <img src="<?php echo get_theme_file_uri().'/photos/Zebra_longwing.svg';?>" alt="" class="img-fluid form-image">
     </div>
-    <form class="form-content-holder" id="main-page-form">
+    <form class="form-content-holder" id="main-page-form" method="POST" action="<?php echo get_theme_file_uri().'/form-submit.php'?>">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" name="name" class="form-control" id="name" placeholder="" required>
@@ -36,6 +37,8 @@
                 <label for="zip" class="form-label">Zip</label>
                 <input type="text" name="zip"class="form-control" id="zip" placeholder=""required>
             </div>
+            <input type="hidden" name="csrf_token" value ="<?php echo $_SESSION['token'];?>">
+            <input type="hidden" name="work_phone">
         </div>
         <div class="mb-3">
             <label for="phone" class="form-label">Phone Number</label>

@@ -1,8 +1,22 @@
 <?php
 
 function set_up_longwings_theme_files() {
-    wp_enqueue_style('style', get_stylesheet_uri());
-    wp_enqueue_script('longwings_main_js', get_theme_file_uri('/main.js'), array('jquery'), '1.0', true);
+    // Enqueue CSS with the file's last modified time as the version
+    wp_enqueue_style(
+        'style',
+        get_stylesheet_uri(),
+        array(), // No dependencies
+        filemtime(get_stylesheet_directory() . '/style.css') // Use file's last modified time
+    );
+
+    // Enqueue JS with the file's last modified time as the version
+    wp_enqueue_script(
+        'longwings_main_js',
+        get_theme_file_uri('/main.js'),
+        array('jquery'), // Dependency on jQuery
+        filemtime(get_theme_file_path('/main.js')), // Use file's last modified time
+        true // Load in the footer
+    );
 }
 
 add_action('init', 'set_up_longwings_theme_files');
